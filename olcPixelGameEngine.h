@@ -5485,6 +5485,7 @@ namespace olc
 			mapKeys[VK_BACK] = Key::BACK; mapKeys[VK_ESCAPE] = Key::ESCAPE; mapKeys[VK_RETURN] = Key::ENTER; mapKeys[VK_PAUSE] = Key::PAUSE;
 			mapKeys[VK_SCROLL] = Key::SCROLL; mapKeys[VK_TAB] = Key::TAB; mapKeys[VK_DELETE] = Key::DEL; mapKeys[VK_HOME] = Key::HOME;
 			mapKeys[VK_END] = Key::END; mapKeys[VK_PRIOR] = Key::PGUP; mapKeys[VK_NEXT] = Key::PGDN; mapKeys[VK_INSERT] = Key::INS;
+			mapKeys[VK_SHIFT] = Key::SHIFT; mapKeys[VK_CONTROL] = Key::CTRL;
 			mapKeys[VK_LSHIFT] = Key::LSHIFT; mapKeys[VK_RSHIFT] = Key::RSHIFT;
 			mapKeys[VK_LCONTROL] = Key::LCTRL; mapKeys[VK_RCONTROL] = Key::RCTRL;
 			mapKeys[VK_SPACE] = Key::SPACE;
