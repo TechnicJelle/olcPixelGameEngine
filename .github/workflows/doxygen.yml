@@ -33,8 +33,8 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Doxygen from GitHub releases manually
         run: |
-          wget https://github.com/doxygen/doxygen/releases/download/Release_1_11_0/doxygen-1.11.0.linux.bin.tar.gz -O doxygen.tar.gz
-          tar -xvzf doxygen.tar.gz
+          wget https://github.com/doxygen/doxygen/releases/download/Release_1_11_0/doxygen-1.11.0.linux.bin.tar.gz --progress=bar:force:noscroll -O doxygen.tar.gz
+          tar -xzf doxygen.tar.gz
           cd doxygen-*
           sudo make install
       - name: Run Doxygen
