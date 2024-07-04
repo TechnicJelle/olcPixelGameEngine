@@ -37,6 +37,7 @@ jobs:
           repo: doxygen/doxygen
           tag: Release_1_11_0
           platform: linux
+          arch: "" # Do not look for an arch
       - name: Run Doxygen
         run: doxygen docs/Doxyfile
       - name: Upload artifact
