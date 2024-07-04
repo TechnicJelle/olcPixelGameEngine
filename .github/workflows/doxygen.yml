@@ -36,7 +36,7 @@ jobs:
           wget https://github.com/doxygen/doxygen/releases/download/Release_1_11_0/doxygen-1.11.0.linux.bin.tar.gz -O doxygen.tar.gz
           tar -xvzf doxygen.tar.gz
           cd doxygen-*
-          make install
+          sudo make install
       - name: Run Doxygen
         run: doxygen docs/Doxyfile
       - name: Upload artifact
