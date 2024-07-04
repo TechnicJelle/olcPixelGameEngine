@@ -1,12 +1,16 @@
 name: Doxygen
 
 on:
-  # Runs on pushes targeting the default branch
-  push:
-    branches: ["master"]
-
-  # Allows you to run this workflow manually from the Actions tab
+  release:
+    types: [released]
   workflow_dispatch:
+    inputs:
+      TAG_NAME:
+        description: 'Project Number for the Doxygen Docs'
+        required: true
+
+env:
+  PROJECT_NUMBER: ${{ github.event.inputs.TAG_NAME || github.event.release.tag_name }}
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
