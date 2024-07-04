@@ -44,6 +44,8 @@ olcPixelGameEngine is used by 100s, if not 1000s of programmers at all levels of
 # Documentation
 Please see https://github.com/OneLoneCoder/olcPixelGameEngine/wiki
 
+Automatically generated function list: https://OneLoneCoder.github.io/olcPixelGameEngine/classolc_1_1PixelGameEngine.html
+
 # License (OLC-3)
 Copyright 2018 - 2024 OneLoneCoder.com
 
